@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReVisi: Tempat Berbagi Desain Kreatif</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="js" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link rel="icon" href="assets/image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+
+<body>
+    <header>
+        <a href="index.html" class="logo">ReVisi</a>
+        <ul class="menu">
+            <a href="index.html">Beranda</a>
+            <a href="explore.html" class="active">Explore</a>
+            <a href="leaderboard.html">Leaderboard</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="login.html" class="btn-download1">Submission <i class="ri-attachment-line"></i></a>
+        </ul>
+        <div class="menu-navbar">
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+        <a href="login.html" class="btn-submission">Submission <i class="ri-attachment-line"></i></a>
+    </header>
+
+    <section id="ngok">
+        <div class="textleader">
+            <h1>Explore 🚀</h1>
+
+            <p>Cari desainmu disini coyyyy</p>
+
+        </div>
+    </section>
+
+    <!-- Section untuk Explore -->
+    <section id="explore">
+        <input type="text" id="search" placeholder="Search images...">
+
+        <!-- Tab Navigation untuk kategori -->
+        <div class="tabs">
+            <button class="tablinks active" onclick="openTab(event, 'Design')">Design</button>
+            <button class="tablinks" onclick="openTab(event, 'Assets')">Assets</button>
+            <button class="tablinks" onclick="openTab(event, 'Wireframe')">Wireframe</button>
+        </div>
+
+        <!-- Konten untuk setiap tab -->
+        <div id="Design" class="tabcontent" style="display:block;">
+            <h2>Design Content</h2>
+            <div class="kartu-container"> <!-- Menambahkan kontainer untuk kartu -->
+                <div class="kartu">
+                    <img src="assets/image/gambar1.png" alt="Template 1">
+                    <div class="card-content">
+                        <h1 data-title="25 Glassmorphism Template by Ryunda">25 Glassmorphism Template by Ryunda</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Aliif Pratama</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 150</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+
+                <div class="kartu">
+                    <img src="assets/image/gambar2.png" alt="Template 2">
+                    <div class="card-content">
+                        <h1 data-title="Modern UI/UX Design for Agencies">Modern UI/UX Design for Agencies</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Arsyah fufufafa</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 150</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+
+                <div class="kartu">
+                    <img src="assets/image/gambar3.png" alt="Template 3">
+                    <div class="card-content">
+                        <h1 data-title="Landing Page Template for Startups">Landing Page Template for Startups</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Rijal Punkshter</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 150</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+
+                <div class="kartu">
+                    <img src="assets/image/gambar4.png" alt="Template 4">
+                    <div class="card-content">
+                        <h1 data-title="Educational App UI/UX Design">Educational App UI/UX Design</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Gibran Rakabuming</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 150</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+                <div class="kartu">
+                    <img src="assets/image/gambar5.jpg" alt="Template 4">
+                    <div class="card-content">
+                        <h1 data-title="Road and bridge information system Boyolali UI Design">Road and bridge
+                            information system Boyolali UI Design</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Phicos Multimedia</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 150</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+
+                <div class="kartu">
+                    <img src="assets/image/gambar3.jpg" alt="Template 4">
+                    <div class="card-content">
+                        <h1 data-title="Persebaya Selamanya 🐊 Redesign">Persebaya Selamanya 🐊 Redesign</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Iosi Pratama</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 1.5K</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+
+                <div class="kartu">
+                    <img src="assets/image/gambar6.jpg" alt="Template 4">
+                    <div class="card-content">
+                        <h1 data-title="Mojokerto City Population Administration Services Online">Mojokerto City
+                            Population Administration Services Online</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Ali Imran</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 150</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+
+                <div class="kartu">
+                    <img src="assets/image/gambar8.jpg" alt="Template 4">
+                    <div class="card-content">
+                        <h1 data-title="PSSI About Page">PSSI About Page</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Jessica</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 150</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+            </div> <!-- Tutup kontainer kartu -->
+        </div>
+
+
+        <div id="Assets" class="tabcontent" style="display: none;">
+            <h2>Assets Content</h2>
+            <!-- Container khusus untuk grid kartu -->
+            <div class="kartu-container">
+                <div class="kartu">
+                    <img src="assets/image/icon1.png" alt="Template 1">
+                    <div class="card-content">
+                        <h1 data-title="Iconly 3D financial icon">Iconly 3D financial icon</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Aliif Pratama</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 150</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+
+                <div class="kartu">
+                    <img src="assets/image/icon2.jpg" alt="Template 1">
+                    <div class="card-content">
+                        <h1 data-title="7 Eleven — App Icons">7 Eleven — App Icons</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Arsyah fufufafa</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 150</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+
+                <div class="kartu">
+                    <img src="assets/image/icon3.png" alt="Template 1">
+                    <div class="card-content">
+                        <h1 data-title="Glassmorphism icons">Glassmorphism icons</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Rijal Punkshter</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 150</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+
+                <div class="kartu">
+                    <img src="assets/image/icon4.png" alt="Template 1">
+                    <div class="card-content">
+                        <h1 data-title="Iconly Pro - 3D icons">Iconly Pro - 3D icons</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Gibran Rakabuming</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 150</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+
+                <div class="kartu">
+                    <img src="assets/image/icon5.png" alt="Template 1">
+                    <div class="card-content">
+                        <h1 data-title="Linear Logos Collection">Linear Logos Collection</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Lepinsov Branding</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 150</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+
+                <div class="kartu">
+                    <img src="assets/image/icon6.jpg" alt="Template 1">
+                    <div class="card-content">
+                        <h1 data-title="Convera Iconography">Convera Iconography</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Makers Company</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 150</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- wireframe -->
+        <div id="Wireframe" class="tabcontent" style="display: none;">
+            <h2>Wireframe Content</h2>
+            <!-- Sama seperti bagian Assets, tambahkan kartu-container -->
+            <div class="kartu-container">
+                <div class="kartu">
+                    <img src="assets/image/wireframe1.png" alt="Wireframe 1">
+                    <div class="card-content">
+                        <h1 data-title="Wireframe Template by Aisyah">Wireframe Template by Aisyah</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Rizal</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 100</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+                <div class="kartu">
+                    <img src="assets/image/wireframe2.png" alt="Wireframe 2">
+                    <div class="card-content">
+                        <h1 data-title="Wireframe Template by Aisyah">Wireframe Template by Aisyah</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Rizal</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 120</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+
+                <div class="kartu">
+                    <img src="assets/image/wireframe3.png" alt="Wireframe 2">
+                    <div class="card-content">
+                        <h1 data-title="Wireframe Template by Aisyah">Wireframe Template by Aisyah</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Rizal</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 120</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+                <div class="kartu">
+                    <img src="assets/image/wireframe4.jpeg" alt="Wireframe 2">
+                    <div class="card-content">
+                        <h1 data-title="Wireframe Template by Aisyah">Wireframe Template by Aisyah</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Rizal</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 120</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+
+                <div class="kartu">
+                    <img src="assets/image/gambar2.png" alt="Wireframe 1">
+                    <div class="card-content">
+                        <h1 data-title="Wireframe Template by Aisyah">Wireframe Template by Aisyah</h1>
+                        <p>
+                            <span class="icon-text"><i class="ri-user-fill"></i> Rizal</span>
+                            <span class="icon-text"><i class="ri-heart-line"></i> 100</span>
+                        </p>
+                        <button class="preview" onclick="window.location.href='preview.html'">Preview</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="footer">
+        <div class="footercontainer">
+            <div class="socialicon">
+                <a href=""><i class="ri-instagram-fill"></i></a>
+                <a href=""><i class="ri-twitter-x-fill"></i></a>
+                <a href=""><i class="ri-tiktok-fill"></i></a>
+                <a href=""><i class="ri-mail-fill"></i></a>
+            </div>
+            <ul class="menu2">
+                <a href="index.html" class="active">Beranda</a>
+                <a href="#explore">Explore</a>
+                <a href="leaderboard.html">Leaderboard</a>
+                <a href="contact.html">Contact Us</a>
+            </ul>
+            <div class="copyright">
+                <p>Crafted with ❤ by Alip, Rizal, Arsyah</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script> <!-- Link ke file JS eksternal -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</body>
+
+</html>
